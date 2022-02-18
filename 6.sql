@@ -1,0 +1,1 @@
+SELECT min(x), max(x), count(*) FROM lab_partition.fn;

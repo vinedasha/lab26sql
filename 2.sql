@@ -1,0 +1,1 @@
+CREATE TABLE lab_partition.fn(x FLOAT, y FLOAT) PARTITION BY RANGE (x);

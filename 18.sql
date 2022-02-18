@@ -1,0 +1,1 @@
+INSERT INTO lab_partition.fn_10_12 (x) VALUES (20.0);

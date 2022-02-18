@@ -1,0 +1,1 @@
+SELECT x, f(x) FROM generate_series(1, 8) AS x;

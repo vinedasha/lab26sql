@@ -1,0 +1,1 @@
+CREATE TABLESPACE fastspace LOCATION '/home/user/fastspace';

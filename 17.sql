@@ -1,0 +1,2 @@
+CREATE TABLE lab_partition.fn_10_12 (LIKE lab_partition.fn INCLUDING DEFAULTS INCLUDING CONSTRAINTS) TABLESPACE fastspace;
+ALTER TABLE lab_partition.fn_10_12 ADD CONSTRAINT rangecheck_10_12 CHECK (x >= 10.0 AND x < 12.0);
